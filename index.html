@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Софья QA</title>
+    <link rel="icon" href="./faviconn.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">БОГОЯВЛЕНСКАЯ СОФЬЯ</div>
+
+    <div class="block">
+      <div class="block-title">на связи</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="http://t.me/gwsony" target="_blank"> telegram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:bogoyavlenskayasofi@yandex.ru">Эл. почта</a>
+        </div>
+       
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">парочка моих кейсов</div>
+      <!--<div class="entry">
+        <a href="https://miro.com/app/board/uXjVJKhOi6g=/?share_link_id=567436232243" target="_blank"> тест-кейс </a>
+      </div>-->
+      <div class="entry">
+        <a
+          href="https://docs.google.com/document/d/1ym5J8yAB7ODxPCuFdNopS2N6MwobD4tK/edit?usp=sharing&ouid=104253414983878159667&rtpof=true&sd=true"
+          target="_blank"
+        >
+          баг-репорт api
+        </a><br>
+        <a
+          href="https://docs.google.com/document/d/1mm-77Txjn-_mM1EXfwtU8_NNPgKghLrc/edit?usp=drive_link&ouid=104253414983878159667&rtpof=true&sd=true"
+        >
+          баг-репорт web
+        </a>
+      </div>
+      <div class="entry">
+        <a href="https://miro.com/app/board/uXjVJKhOi6g=/?share_link_id=567436232243" target="_blank">чек-лист</a>
+      </div>
+      
+      
+    </div>
+  </body>
+</html>
